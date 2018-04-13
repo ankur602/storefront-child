@@ -57,3 +57,4 @@ function iconic_information_endpoint_content() {
 }
  
 add_action( 'woocommerce_account_information_endpoint', 'iconic_information_endpoint_content' );
+remove_filter ('the_content', 'wpautop');

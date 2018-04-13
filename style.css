@@ -20,3 +20,4 @@ select{    width: 100%;
     border-radius: 2px;
     box-sizing: border-box;
     font-weight: 400;}
+.col-md-6,.col-md-12{margin-top:10px;}
