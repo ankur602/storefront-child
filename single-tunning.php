@@ -11,7 +11,7 @@ get_header();
 <div id="<?php echo $post_id; ?>" class="post-<?php echo $post_id; ?> tunning type-tunning status-publish has-post-thumbnail hentry">
 			<header class="entry-header">
 			
-			<h1 class="entry-title"><?php the_title(); ?></h1>		</header><!-- .entry-header -->
+			<h1 class="entry-title"><?php the_title(); ?><span style="float:right;"><a style="font-size:14px;" href="http://bblperformance.com/my-account/information/">View All</a></span></h1>	</header><!-- .entry-header -->
 				<div class="entry-content">
 			<p><?php the_content(); ?></p>
 					</div><!-- .entry-content -->
