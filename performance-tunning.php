@@ -1,5 +1,5 @@
 <h2>Your Tunning Requests</h2>
-<table class="check" ><tr><th>Name</th><th>Action</th></tr>
+<table class="check now" ><tr><th>Name</th><th>Action</th></tr>
 <?php  
 $args = array( 'post_type' => 'tunning');
 $loop = new WP_Query( $args );
